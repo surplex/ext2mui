@@ -1,5 +1,5 @@
-E2M_URL="https://examples.sencha.com/extjs/7.4.0/examples/kitchensink/frame-index.html?classic\#array-grid"
-E2M_NS="KitchenSink"
+E2M_URL="https://f.."
+E2M_NS="FlexAc,FlexCs,FlexLg,FlexPr"
 .PHONY: up clean down
 
 up:
