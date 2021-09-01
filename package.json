@@ -1,0 +1,17 @@
+{
+  "name": "ext2mui",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "puppeteer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.3.2",
+    "puppeteer": "^10.2.0"
+  }
+}

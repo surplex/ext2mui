@@ -1,0 +1,23 @@
+version: '3.3'
+services:
+  exec:
+    image: buildkite/puppeteer:latest
+    working_dir: /src
+    volumes:
+      - .:/src
+    entrypoint: "node puppeteer.js"
+    depends_on:
+      - build
+    environment:
+      E2M_NS: ${E2M_NS}
+      E2M_URL: ${E2M_URL}
+  build:
+    image: node:latest
+    build:
+      context: .
+    working_dir: /src
+    volumes:
+      - .:/src
+    entrypoint: "npm i"
+volumes:
+  .:
